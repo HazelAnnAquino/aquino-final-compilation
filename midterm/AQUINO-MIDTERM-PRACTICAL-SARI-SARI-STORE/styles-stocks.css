@@ -1,0 +1,394 @@
+@font-face {
+    font-family: "Pattaya";
+    font-weight: 400;
+    src: url(ASSETS/fonts/Pattaya-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Passion One";
+    font-weight: 900;
+    src: url(ASSETS/fonts/PassionOne-Black.ttf);
+}
+
+@font-face {
+    font-family: "Passion One";
+    font-weight: 700;
+    src: url(ASSESTS/fonts/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Passion One";
+    font-weight: 400;
+    src: url(ASSETS/fonts/PassionOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-weight: 300;
+    src: url(ASSETS/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url(ASSETS/fonts/Poppins-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+
+header {
+    background: #ffffff;
+    color: #ffffff;
+    padding: 10px 10px;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.logo img {
+    margin-left: 45px;
+    max-height: 45px;
+}
+
+nav {
+    display: flex;
+    padding-inline: 2%;
+}
+
+nav a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: inline;
+    margin-left: 20px;
+}
+
+
+
+nav a {
+    font-family: "Pattaya", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #ff9100;
+    text-decoration: none;
+    margin-left: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffc400;
+    color: #000000;
+    box-shadow: 0 0 10px #ffee10;
+}
+
+.support-local-banner-container {
+    background-image: url("ASSETS/images/SUPPORT-LOCAL1.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 150px;
+    padding-top: 250px;
+    border-top-style: solid;
+    border-top-width: 60px;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 4rem;
+    z-index: 2;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 3rem;
+    text-decoration: none;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    background-color: #ffd000;
+    color: black;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.picture-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #000000 solid 5px;
+    overflow: hidden;
+}
+
+.picture-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.banner {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 200px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.navbar2 {
+    background-color: #ffd000;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.navbar2 button {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 3rem;
+
+    text-decoration: none;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navbar2 button:hover {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 2%;
+    margin-bottom: 5rem;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 20%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.item-details {
+    display: flex;
+    gap: 10px;
+    padding: 5%;
+    width: 100%;
+}
+
+.item-details h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+
+
+}
+
+.description {
+    display: block;
+    gap: 1%;
+    width: 100%;
+}
+
+.item-details p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.item-details .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff3300;
+}
+
+.stock {
+    font-size: 14px;
+    color: #696868;
+    padding: 5%;
+    width: 30%;
+}
+
+.stock-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+
+}
+
+.quantity {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+.quantity p {
+    width: 80%;
+    padding: 10px;
+    margin: 5%;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.quantity button {
+    background-color: #ffa600;
+    border: none;
+    padding: 15px 15px;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: background-color 0.3s;
+}
+
+.quantity button:hover {
+    background-color: #000000;
+    color: #f7f7f7;
+}
+
+.add-to-stocks {
+    display: block;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px 50px;
+    background-color: #000000;
+    color: #f7f7f7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width:70%;
+}
+
+.add-to-stocks:hover {
+    background-color: #ff5500;
+}
+
+
+
+.highlight {
+    background-color: rgb(255, 195, 83);
+    transition: background-color 0.5s ease;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ff9100;
+}
+
+.copyright {
+    margin-top: 30px;
+}

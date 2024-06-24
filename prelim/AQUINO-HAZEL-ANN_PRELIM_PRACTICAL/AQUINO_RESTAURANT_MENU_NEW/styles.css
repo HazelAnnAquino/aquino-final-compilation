@@ -1,0 +1,365 @@
+@font-face {
+    font-family: "Pattaya";
+    font-weight: 400;
+    src: url(fonts/Pattaya-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Passion One";
+    font-weight:900;
+    src: url(fonts/PassionOne-Black.ttf);
+}
+
+@font-face {
+    font-family: "Passion One";
+    font-weight: 700;
+    src: url(fonts/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: "Passion One";
+    font-weight: 400;
+    src: url(fonts/PassionOne-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Poppins";
+    font-weight: 300;
+    src: url(fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family:"Poppins";
+    font-weight: 400;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.headerwrapper {
+    background-color: #ffd900;
+    color: #000000;
+    padding: 5px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.logo-container img {
+    width: 120px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.navigation-container {
+    display: flex;
+    padding-right: 20px;
+}
+
+nav a {
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 35px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #AC0B2C;
+    box-shadow: 0 0 15px #ffee10;
+}
+
+
+
+
+.header-container {
+    background-image: url("assets/background-top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.header1 .title-top {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: #ffffff;
+    white-space: nowrap;
+    margin-top: 5rem;
+    margin-bottom: 0px;
+}
+
+.header1 .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 2px;
+    padding: 2.5rem;
+}
+
+.header1 .intro-p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+
+.intro-picture img {
+    width: 90%;
+    height: auto;
+    margin-right: 30px;
+}
+
+.about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 10px 9px 10px 9px rgb(109, 109, 109);
+}
+
+.story {
+    width: 80%;
+}
+
+.story-picture {
+    padding-right: 5%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-picture img {
+    width: 70%;
+    height: auto;
+}
+
+.top-title-desc {
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #FF7A00;
+    margin-bottom: 0px;
+}
+
+hr {
+    border: 1px solid #FF7A00;
+    border-radius: 5px;
+}
+
+.title-desc {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: #FF7A00;
+    margin-top: 0px;
+}
+
+.subtitle-desc {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.container-feeling-hungry {
+    background-image: url("assets/feeling-hungry-top.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100px;
+    padding-top: 180px;
+    border: 50px;
+}
+
+
+.container-below-main {
+    background-image: url("assets/background-top.png");
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-BELOW-container {
+    background-color: #ffffff;
+    display: flex;
+    margin: 100px;
+    border-radius: 2rem;
+
+}
+
+.container-below1,
+.container-below2,
+.container-below3 {
+    display:flex;
+    flex: 1;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-below1 img,
+.container-below2 img,
+.container-below3 img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+.title-desc-below {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #FF7A00;
+    margin-top: 25px;
+}
+footer {
+    background-color: #ffbf00;
+    color: #000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.footer-container h4{
+	margin: 2rem;
+	font-size: 1.2rem;
+    font-family: 'Pattaya', sans-serif;
+    color: #030303;
+	text-align:left;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.footer-links ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Passion One', sans-serif;
+    color: #030303;
+
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #FF7A00;
+}
+
+.footer-contact p {
+	text-align:left;
+    margin: 2rem;
+	font-size: 14px;
+    font-family: 'Passion One', sans-serif;
+    color: #030303;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social img {
+    width: 40px;
+    height: auto;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Pattaya', sans-serif;
+    color: #030303;
+}
+.footer-bottom p {
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Pattaya', sans-serif;
+    color: #030303;
+}
+
+
+
+
+
+
+
+
+
+
+
+

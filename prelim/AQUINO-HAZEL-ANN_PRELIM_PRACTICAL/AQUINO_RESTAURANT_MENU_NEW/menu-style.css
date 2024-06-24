@@ -1,0 +1,513 @@
+@font-face {
+    font-family: "Pattaya";
+    font-weight: 400;
+    src: url(fonts/Pattaya-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Passion One";
+    font-weight: 900;
+    src: url(fonts/PassionOne-Black.ttf);
+}
+
+@font-face {
+    font-family: "Passion One";
+    font-weight: 700;
+    src: url(fonts/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Passion One";
+    font-weight: 400;
+    src: url(fonts/PassionOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-weight: 300;
+    src: url(fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.headerwrapper {
+    background-color: #ffd900;
+    color: #000000;
+    padding: 5px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+.logo-container img {
+    width: 120px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.navigation-container {
+    display: flex;
+    padding-right: 20px;
+}
+
+nav a {
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 35px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #AC0B2C;
+    box-shadow: 0 0 15px #ffee10;
+}
+
+footer {
+    background-color: #ffbf00;
+    color: #000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.footer-container h4{
+	margin: 2rem;
+	font-size: 1.2rem;
+    font-family: 'Pattaya', sans-serif;
+    color: #030303;
+	text-align:left;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.footer-links ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Passion One', sans-serif;
+    color: #030303;
+
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #FF7A00;
+}
+
+.footer-contact p {
+	text-align:left;
+    margin: 2rem;
+	font-size: 14px;
+    font-family: 'Passion One', sans-serif;
+    color: #030303;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social img {
+    width: 40px;
+    height: auto;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Pattaya', sans-serif;
+    color: #030303;
+}
+.footer-bottom p {
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Pattaya', sans-serif;
+    color: #030303;
+}
+
+.container-feeling-hungry-menu {
+    background-image: url("assets/feeling-hungry-top.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100px;
+    padding-top: 180px;
+    border-top-style: solid;
+    border-top-width: 60px;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 4rem;
+    z-index: 1000;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 3rem;
+    text-decoration: none;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    background-color: #ffd000;
+    color: black;
+}
+
+
+.navbar2 {
+    background-color: #ffd900;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar2 button {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 3rem;
+    text-decoration: none;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navbar2 button:hover {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.highlight {
+    background-color: rgb(255, 215, 83);
+    transition: background-color 0.5s ease;
+}
+
+
+h3 {
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #ff9d00;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: #000000;
+}
+h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: right;
+}
+.add-to-cart {
+    margin: 2px;
+    padding: .6rem .6rem;
+    background-color: #ffc400;
+    color: rgb(0, 0, 0);
+	font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    font-weight: 500;
+    border-radius: 5rem;
+    position:static;
+    box-shadow: 10px 5px 8px #b9b8b8;
+    cursor: pointer;
+	
+
+}
+
+.add-to-cart:hover {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+}
+
+.main-dish-container {
+    display: flex;
+    margin: 2rem;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+.main-dish1-container,
+.main-dish2-container,
+.main-dish3-container,
+.main-dish4-container,
+.main-dish5-container {
+    padding: .5rem;
+    width: 20%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+	
+}
+
+.maindish-picture img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+.vegetables-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+
+}
+
+.veg-1-container,
+.veg-2-container,
+.veg-3-container {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 25%;
+}
+
+.veg-picture img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+.drinks-container,
+.desserts-container {
+    margin: 2rem;
+    justify-content: space-evenly;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.drinks-1-container,
+.drinks-2-container,
+.drinks-3-container,
+.dessert-1-container,
+.dessert-2-container,
+.dessert-3-container {
+    display: flex;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    gap: .5rem;
+    width: 33.3%;
+}
+
+.drinks-picture img,
+.desserts-picture img {
+    padding-top: 10%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.adds-on-container {
+    display: block;
+    margin: 2rem;
+}
+
+.adds-on-container-top,
+.adds-on-container-below {
+    display: flex;
+    margin: 2rem;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+.pasta-1-container,
+.pasta-2-container,
+.pasta-3-container,
+.pasta-4-container,
+.rice-container,
+.fries-container,
+.pizza-1-container,
+.pizza-2-container,
+.pizza-3-container,
+.pizza-4-container {
+    padding: .5rem;
+    width: 20%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pasta-picture img,
+.rice-picture img,
+.fries-picture img,
+.pizza-picture img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+.icon-cart {
+    position: relative;
+}
+
+.icon-cart span {
+    position: absolute;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    top: 50%;
+    right: -20px;
+}
+
+.icon-cart img {
+    padding-block: .5rem;
+    width: 30px;
+}
+
+.cartTab {
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    right: -400px;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+
+
+}
+
+body.showCart .cartTab {
+    right: 0;
+}
+
+body.showCart .container {
+    transform: translateX(-250px);
+}
+
+.cartTab h1 {
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cartTab .btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab button {
+    background-color: #E8BC0E;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartTab .close {
+    background-color: #eee;
+}

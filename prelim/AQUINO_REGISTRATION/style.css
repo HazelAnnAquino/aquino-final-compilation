@@ -1,0 +1,447 @@
+body {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: Arial;
+	background-image: url('assets/background-bg1.png');
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main-container {
+	width: 1000px;
+	margin-top: 20px;
+	background-image: url('assets/background-back.png');
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 50px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.logo-tagaytay-container,
+.logo-cct-container {
+	width: 100px;
+	padding-right: 5%;
+	padding-left: 2%
+}
+
+
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.reg_info {
+	background: linear-gradient(to left, #ff7300 1%, #9D1222 100%);
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+
+
+td {
+	padding: 10px;
+	color: #9D1222;
+	text-align: left;
+	font-size: 14px;
+	padding: 2px 2px 1px 11px;
+	font-weight: 500px;
+}
+
+.academic-year {
+	font-size: 1rem;
+	color: black;
+}
+
+u {
+	text-decoration: underline;
+}
+
+p {
+	font-size: 1rem;
+	color: #9D1222;
+}
+
+.course-code,
+.course-code-last {
+	padding-left: 3%;
+}
+
+.section-last,
+.course-code-last,
+.course-descrip-last,
+.units-last,
+.sched-last {
+	padding-bottom: 12rem;
+
+
+}
+
+.registration-table {
+	border: 1px solid #9D1222;
+}
+
+
+
+.second-line-heading {
+	color: #9D1222;
+	text-align: center;
+	font-weight: 600;
+	padding: 15px;
+	border: 1px solid #9D1222;
+
+}
+
+.section-top,
+.course-code-top,
+.course-descrip-top,
+.units-top,
+.sched-top {
+	text-align: center;
+}
+
+.course-code-top,
+.course-descrip-top,
+.units-top,
+.sched-top,
+.course-code,
+.course-descrip,
+.units,
+.sched,
+.course-code-last,
+.units-last,
+.course-descrip-last,
+.sched-last {
+	border-left: 1px solid #9D1222;
+}
+
+.course-descrip-top {
+	width: 37%;
+}
+
+.course-code-top {
+	width: 11%;
+}
+
+.course-descrip {
+	width: 30%;
+}
+
+.units-top {
+	width: 19%;
+}
+
+.units,
+.units-last {
+	text-align: center;
+}
+
+.amount,
+.total-amount {
+	text-align: right;
+	padding: 2px 30px 2px 2px;/
+}
+
+.content,
+.amount,
+.total-amount {
+	padding: 2px 30px 2px 2px;
+}
+
+
+
+.second-line-heading td {
+	padding: 10px;
+}
+
+.total-sub,
+.no-unit,
+.no-lab-units,
+.no-credits {
+	color: #000000;
+	font-weight: 900;
+}
+
+.yellow-row td {
+	background:#ffd467;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 10px;
+}
+
+.yellow-row .sub,
+.yellow-row .lec-unit,
+.yellow-row .lab-unit,
+.yellow-row .total-credit {
+	width: 25.5%;
+	color: #9D1222;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.yellow-row .total-credit,
+.yellow-row .no-credits {
+	width: 15.5%;
+}
+
+.units,
+.units-last {
+	text-align: center;
+}
+
+.section {
+	width: 12.5%;
+}
+
+.name,
+.program,
+.major,
+.date,
+.year,
+.student-num,
+.registration-stat {
+	color: #9D1222
+}
+
+.my-name,
+.my-program,
+.my-major,
+.my-stud-num,
+.my-date,
+.my-year,
+.my-stat,
+.section,
+.course-code,
+.course-descrip,
+.units,
+.sched,
+.section-last,
+.course-code-last,
+.course-descrip-last,
+.units-last,
+.sched-last,
+.total-sub,
+.no-unit,
+.no-unit,
+.no-lab-units,
+.no-credits,
+.content1,
+.amount,
+.total-amount,
+.payment-amount {
+	color: #000000
+}
+
+
+.content,
+.amount,
+.total-amount {
+	padding: 2px 2px 2px 30px;
+
+}
+
+.amount,
+.total-amount {
+	text-align: right;
+	padding: 2px 30px 2px 2px;
+}
+
+.billing-main {
+	border: 1px solid #9D1222;
+}
+
+.left {
+	border-right: 1px solid #9D1222;
+}
+
+.content1 {
+	padding-left: 3rem;
+}
+
+.amount,
+.total-amount,
+.assessed-by {
+	border-left: 1px solid #9D1222;
+}
+
+.title,
+.content1,
+.title-total,
+.total-amount {
+	border-bottom: 1px solid #9D1222;
+	border-top: 1px solid #9D1222;
+}
+
+.extraa3 {
+	border-right: 1px solid #9D1222;
+}
+
+.extraa3,
+.extraa4 {
+	padding-bottom: 4rem;
+}
+
+.extra3 {
+	border-bottom: 1px solid #9D1222;
+
+}
+
+.extra4 {
+	border: 1px solid #9D1222;
+	padding-bottom: 4rem;
+}
+
+.title-assessed {
+	vertical-align: top;
+}
+
+.assessed-by {
+	text-align: right;
+	padding: 2px 2px 25px 2px;
+}
+
+.right-side {
+	padding: .1px;
+}
+
+.payment-details {
+	border-bottom: 1px solid #9D1222;
+	border-top: 1px solid #9D1222;
+}
+
+.payment-details,
+.terms-of-payment,
+.payment-label,
+.payment-amount,
+.fees-rules,
+.fees-terms,
+.fee-info {
+	padding: 1px 1px 1px 1px;
+}
+
+.payment-label,
+.fees-terms {
+	padding: 2px 2px 2px 12px;
+}
+
+.payment-amount {
+	padding: 2px 20px 2px 20px;
+	text-align: right;
+}
+
+.extra5 {
+	border-bottom: 1px solid #9D1222;
+	padding-bottom: 4rem;
+}
+
+.fees-rules {
+	text-align: center;
+}
+
+.fee-info {
+	padding: 2px 19px 2px 30px;
+}
+
+.fee-infos {
+	padding: 2px 10px 2px 40px;
+}
+
+
+.SCHOLARSHIP {
+	padding-inline: .5px;
+	padding-top: 0%;
+
+}
+
+
+
+.fees-rules,
+.fee-infos,
+.fee-info,
+.fees-rules,
+.title,
+.content1,
+.content,
+.amount {
+	font-size: .8rem;
+}
+
+.footer-table {
+	margin-top: 20px;
+	border: 1px solid #9D1222;
+}
+
+.verified-by,
+.approved-by {
+	padding-top: 3.5rem;
+}
+
+.school-dean,
+.registrar {
+	padding-left: 19rem;
+}
+
+.college-registrar {
+	text-align: right;
+	padding-right: 6.5rem;
+}
+
+.approved-by {
+	padding-left: 200px;
+}
+
+.school-dean {
+	padding-left: 130px;
+
+}
+
+.registrar {
+	padding-left: 130px;
+}
+
+.namee {
+	text-decoration: underline;
+}
+
+.yellow-row td {
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.yellow-row .sub,
+.yellow-row .lec-unit,
+.yellow-row .lab-unit,
+.yellow-row .total-credit {
+	width: 11.5%;
+}
+
+.yellow-row .total-sub,
+.yellow-row .no-unit,
+.yellow-row .no-lab-units,
+.yellow-row .no-credits {
+	width: 4.5%;
+}
+
+.yellow-row {
+	background-color: beige;
+}
